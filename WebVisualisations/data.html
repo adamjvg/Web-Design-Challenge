@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Data Table</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>  
+   
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav dropdown-content">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a> 
+              <ul class="dropdown-menu" id="dropdown-menu">
+                 <li >
+                  <a class="dropdown-item" href="maxTemp.html">Max Temperature</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+                </li>
+              </ul>
+            </li>
+     
+      
+        <li class="nav-item">
+          <a class="nav-link" href="summary.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+	    <div class="content">
+        	<div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box">
+                            <div class="page-header">
+                                <h1 class="title data">Data Analysis</h1>
+                                <p class="category"><b>Note: </b>The following table contains all the rows of the data from cities.csv file in this project.</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                              <table border="1" class="table table-hover table-striped dataframe">
+
